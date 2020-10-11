@@ -4,7 +4,7 @@ Base Architecture is a reference architecture based off of Provider that I use t
 
 It easily seperates the core of any project, i.e Services and Models, the View Models of all views and widgets,
 and the ui, i.e the widgets, shared constants, views(pages).
-It also separates clatered navigation from UI by the use of a separate route generator that lays all routes in a simple function.
+It also separates cluttered navigation from UI by the use of a separate route generator that lays all routes in a simple function.
 
 It uses Provider as the state management tool and only for state management, no dependency injection through it.
 
