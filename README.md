@@ -1,16 +1,14 @@
 # base_architecture
 
-A new Flutter project.
+Base Architecture is a reference architecture based off of Provider that I use to base all projects on, big and small.
 
-## Getting Started
+It easily seperates the core of any project, i.e Services and Models, the View Models of all views and widgets,
+and the ui, i.e the widgets, shared constants, views(pages).
+It also separates clatered navigation from UI by the use of a separate route generator that lays all routes in a simple function.
 
-This project is a starting point for a Flutter application.
+It uses Provider as the state management tool and only for state management, no dependency injection through it.
 
-A few resources to get you started if this is your first Flutter project:
+It also uses "Get_It" as the dependency injection to make it easier to swap in and out services needed in the project.
+This allows a great level of service independence on views, that is, less code required to include or remove a service from the project.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Simplicity and maintainability are the reasons behind compiling this architecture project.
