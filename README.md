@@ -11,4 +11,4 @@ It uses Provider as the state management tool and only for state management, no 
 It also uses "Get_It" as the dependency injection to make it easier to swap in and out services needed in the project.
 This allows a great level of service independence on views, that is, less code required to include or remove a service from the project.
 
-Simplicity and maintainability are the reason behind compiling this architecture project.
+Simplicity and maintainability are the reasons behind compiling this architecture project.
